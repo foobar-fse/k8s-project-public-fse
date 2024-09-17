@@ -1,0 +1,49 @@
+# path to fabfile
+# replace <username> with your user name
+fabfile=/home/centos/<username>/data-collection-2/fabric-call/fabfile.py
+
+# set every minute for test, set 15 minutes to reduce data size
+# k8s-api-resources every 5 minutes
+#*/15 * * * *  fab -f $fabfile  k8s_api_resource_polling_task 
+* * * * *  fab -f $fabfile  k8s_api_resource_polling_task 
+
+# docker state every 5 minutes 
+#*/15 * * * *  fab -f $fabfile  docker_polling_task
+* * * * *  fab -f $fabfile  docker_polling_task
+
+# docker image state every 2 hour
+0 */1 * * *  fab -f $fabfile  image_polling_task
+#* * * * *  fab -f $fabfile  image_polling_task
+
+# network interface every 5 minutes
+#*/15 * * * *  fab -f $fabfile  interface_polling_task
+#*/15 * * * *  fab -f $fabfile  interface_raw_polling_task
+* * * * *  fab -f $fabfile  interface_polling_task
+* * * * *  fab -f $fabfile  interface_raw_polling_task
+
+# network state iptable every 5 minutes
+#*/15 * * * *  fab -f $fabfile  iptable_polling_task
+#*/15 * * * *  fab -f $fabfile  iptable_raw_polling_task
+* * * * *  fab -f $fabfile  iptable_polling_task
+* * * * *  fab -f $fabfile  iptable_raw_polling_task
+
+# network calico-resources every 5 minutes
+#*/15 * * * *  fab -f $fabfile  calico_resource_polling_task
+* * * * *  fab -f $fabfile  calico_resource_polling_task
+
+# network calico-node-ipam every 5 minutes, not important, and can get only with calicoctl installed in node
+#*/15 * * * *  fab -f $fabfile  calico_node_ipam_polling_task
+#*/15 * * * *  fab -f $fabfile  calico_node_ipam_raw_polling_task
+* * * * *  fab -f $fabfile  calico_node_ipam_polling_task
+* * * * *  fab -f $fabfile  calico_node_ipam_raw_polling_task
+
+
+# storage persistent-disk every 5 minutes
+#*/15 * * * *  fab -f $fabfile  persistent_disk_polling_task
+* * * * *  fab -f $fabfile  persistent_disk_polling_task
+
+# storage state pd-content every 2 hours
+0 */1 * * *  fab -f $fabfile  pd_content_polling_task
+#* * * * *  fab -f $fabfile  pd_content_polling_task
+
+

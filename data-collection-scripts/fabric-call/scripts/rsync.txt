@@ -1,0 +1,25 @@
+# replace <username> with your user name
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.74
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.73
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.71
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.72
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.63
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.62
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.61
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.60
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.59
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.58
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.56
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.57
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.54
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.55
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.53
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.52
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.51
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.50
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.49
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.40
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.39
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.38
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.37
+rsync -aqz -e 'ssh -p 1022' --remove-source-files --include ='2020*' --exclude='scripts'  /home/<username>/data-collection-4//* <username>@172.16.112.37:/mnt/data/<username>//172.16.112.64
